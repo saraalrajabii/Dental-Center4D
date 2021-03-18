@@ -7,9 +7,12 @@
       margin:  0 auto;
     display: grid; 
      grid-template-columns: 2fr 20fr 2fr ;
+     position: relative;
     }
 
-
+    @media screen and (min-width: 1400px) {
+    
+    }
     .body-mobile{
         margin:  0 auto;
         display: grid; 
@@ -30,10 +33,12 @@
     } 
    .dental-logo{
      position: absolute;
-   
      top: 40px;
-     right:8%;
+  right: 8%;
    }
+ 
+
+
   
    .inner-container1{
     display: grid; 
@@ -240,8 +245,7 @@
   .Group{
   width :80%;
   height: 100%;
-  /* width: 655.73px;
-  height: 462.22px; */
+
   }
   .Grou1{
     width :60%;
@@ -381,13 +385,7 @@
 
       
        }
-       .dental-logo{
-
-        width:90px;
-      
-        top: 50px;
-      right: 8%;
-      }
+ 
       .lin2{
         display: none;
       }
@@ -487,4 +485,7 @@ margin-right: 20px;
       
   
   
+  }
+  @media screen and (min-width: 1400px) {
+
   }
